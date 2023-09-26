@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturando Html</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        code{
+            color: blue;
+        }
+
+        p{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        Tag <code>< span ></code> :
+        A tag <code>< span ></code> é usada para agrupar e aplicar estilos a partes específicas de um texto dentro de um elemento maior. Ela não afeta a estrutura do documento, apenas define um contexto para aplicação de estilos.
+        Por exemplo, você pode usar <code>< span ></code> para destacar uma palavra ou frase em um parágrafo e aplicar estilos, como cor de texto, tamanho da fonte, etc.
+    </p>
+
+    <p>Este é um exemplo de <span style="color: red;">texto destacado</span>.</p>
+
+    <p>
+        Tag <code>< div ></code> :
+        A tag <code>< div ></code> é um elemento de bloco que é usado para criar seções ou contêineres em uma página HTML. Ela é frequentemente usada para agrupar elementos HTML e aplicar estilos ou scripts a eles.
+        O <code>< div ></code> é flexível e não tem significado semântico próprio, mas é muito útil para estruturar o layout da página e organizar o conteúdo.
+    </p>
+
+    <div id="header">
+        <h1>Titulo exemplo</h1>
+        <p>Bem-vindo ao meu site exemplo !</p>
+    </div>
+
+    <p>
+        Tag <code>< fieldset ></code> :
+        A tag <code>< fieldset ></code> é usada para agrupar elementos de formulário relacionados dentro de um formulário HTML. Ela geralmente é acompanhada pela tag <code>< legend ></code> para fornecer uma legenda ou título para o grupo de campos.
+        Isso ajuda na organização e na acessibilidade de formulários, especialmente quando você precisa dividir informações em seções claras.
+    </p>
+
+    <form>
+        <fieldset>
+           <legend>Informações Pessoais</legend>
+           <label for="nome">Nome:</label>
+           <input type="text" id="nome" name="nome">
+           <!-- Outros campos relacionados à informação pessoal aqui -->
+        </fieldset>
+     </form>
+
+    <p>
+        Tag <code>< iframe ></code> :
+        A tag <code>< iframe ></code> é usada para incorporar uma página da web externa dentro de uma página HTML. Isso é comumente usado para incorporar mapas, vídeos do YouTube, widgets de redes sociais e outros conteúdos externos.
+        O atributo src especifica a URL do conteúdo a ser incorporado, e você pode controlar o tamanho e outros atributos do <code>< iframe ></code>.
+    </p>
+
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+
+    <p>
+        <strong>Lembrando que essas são apenas algumas informações básicas sobre essas tags HTML. Cada uma delas possui mais detalhes e propriedades que podem ser utilizadas para atender às necessidades específicas de design e funcionalidade em suas páginas da web.</strong>
+    </p>
+
+</body>
+</html>
