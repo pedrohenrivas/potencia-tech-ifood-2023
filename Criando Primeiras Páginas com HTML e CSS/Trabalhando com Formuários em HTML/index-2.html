@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faça sua pizza</title>
+    <title>Checkbox e Radio</title>
 </head>
 
-    <form action="#" method="post">
+    <form onsubmit="" method="post">
         <h3>Você selecionou: Pizza de Calabresa</h3>
+        <p>Qual é o tamanho da pizza?</p>
+        <select name="role">
+            <option value="tamanho">Selecione o tamanho</option>
+            <option value="tamanho">Pequena</option>
+            <option value="tamanho">Media</option>
+            <option value="tamanho">Grande</option>
+        </select>
         <p>Quais Opcionais você deseja?</p>
         <input type="checkbox" name="opcional[]" value="queijo">+ queijo <br>
         <input type="checkbox" name="opcional[]" value="calabresa">+ calabresa extra <br>
@@ -21,6 +28,8 @@
         <input type="radio" name="bebida" value="Refrigerante">Refrigerante <br>
         <input type="radio" name="bebida" value="Água">Água <br>
         <input type="radio" name="bebida" value="Nenhum">Nenhum <br>
+        <label for="observação">Observação</label>
+        <textarea name="mesage"cols="30" rows="1"></textarea>
         <button type="submit">Enviar pedido</button>
     </form>
 <body>
@@ -43,6 +52,24 @@
     <input type="color">: Cria um seletor de cores.
     <input type="range">: Cria um controle deslizante para selecionar um valor de um intervalo.
     <input type="tel">: Cria um campo de entrada de texto para números de telefone.-->
+
+
+
+    <!-- Tags utilizadas pelo button 
+        
+    <button type="button">: Este é o tipo padrão e cria um botão clicável que não executa ações especiais além de eventos JavaScript personalizados que você possa associar a ele.
+
+    <button type="submit">: Cria um botão que, quando clicado, envia o formulário em que ele está contido. É usado para enviar os dados do formulário para o servidor.
+
+    <button type="reset">: Cria um botão que, quando clicado, redefine os valores do formulário para seus valores iniciais. Ele limpa os campos do formulário.
+
+    <button type="menu">: Usado para criar um botão de menu, embora não seja amplamente suportado em todos os navegadores.
+
+    <button type="submit">: Um botão que, quando clicado, envia o formulário em que ele está contido. Ele é usado para enviar os dados do formulário para o servidor.
+
+    <button type="reset">: Um botão que, quando clicado, redefine os valores do formulário para seus valores iniciais. Isso limpa os campos do formulário.
+
+    <button type="menu">: Usado para criar um botão de menu, embora não seja amplamente suportado em todos os navegadores.-->
     
 </body>
 </html>
