@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <style>
+
+        /* Exemplos de seletores CSS */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: rgb(255, 0, 0);
+}
+
+.destaque {
+  font-weight: bold;
+}
+
+#cabecalho {
+  background-color: #333;
+  color: #fff;
+}
+
+article p {
+  margin-bottom: 10px;
+}
+
+.lista > li {
+  list-style-type: square;
+}
+
+input[type="text"] {
+  width: 200px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+
+<!--Tipos de Seletores
+
+    Seletores de Tipo: Seleciona todos os elementos de um determinado tipo.
+
+p {
+  color: blue;
+}
+    Seletores de Classe: Seleciona elementos com uma classe específica.
+
+.destaque {
+  font-weight: bold;
+}
+    Seletores de ID: Seleciona um elemento com um ID específico.
+
+#cabecalho {
+  background-color: #333;
+}
+    Seletores de Descendência: Seleciona elementos que são descendentes de outro elemento.
+
+artigo p {
+  margin-bottom: 10px;
+}
+    Seletores de Filho Direto: Seleciona elementos que são filhos diretos de outro elemento.
+
+lista > li {
+  list-style-type: square;
+}
+    Seletores de Atributo: Seleciona elementos com um atributo específico.
+
+input[type="text"] {
+  width: 200px;
+}
+    Seletores Universais: Seleciona todos os elementos.
+
+* {
+  margin: 0;
+  padding: 0;
+}
+    Pseudo-classes: Seleciona elementos em um estado específico.
+
+a:hover {
+  text-decoration: underline;
+}
+    Pseudo-elementos: Seleciona partes específicas de um elemento.
+
+p::first-line {
+  font-weight: bold;
+}
+Agora, vamos criar alguns exemplos: -->
+
+  <header id="cabecalho">
+    <h1>Meu Site</h1>
+  </header>
+
+  <h2>
+    Este é um exemplo utilizando os seletores do CSS
+  </h2>
+
+  <section class="destaque">
+    <p>Este é um parágrafo em destaque.</p>
+  </section>
+
+  <article>
+    <p>Este é um parágrafo dentro de um artigo.</p>
+  </article>
+
+  <ul class="lista">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+
+  <input type="text" placeholder="Digite aqui">
+
+  <a href="#">Link</a> 
+</body>
+</html>
