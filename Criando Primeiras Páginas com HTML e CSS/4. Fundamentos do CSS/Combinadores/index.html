@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores</title>
+    <style>
+
+    /* Combinador de Descendência (Espaço): Selecione todos os elementos descendentes do elemento especificado.
+
+    Combinador de Filho Direto (>): Selecione apenas os elementos que são filhos diretos do elemento especificado.
+        
+    Combinador de Irmão Adjacente (+): Selecione o elemento que é imediatamente precedido pelo mesmo pai e no mesmo nível.
+
+    Combinador de Irmão Geral (~): Selecione todos os elementos irmãos que seguem após o elemento especificado. */
+
+        /* Exemplos de seletores e combinadores CSS */
+
+p {
+  color: blue;
+}
+
+.destaque {
+  font-weight: bold;
+}
+
+#cabecalho {
+  background-color: #333;
+}
+
+article p {
+  margin-bottom: 10px;
+  color: green; /* combinador de descendência */
+}
+
+.lista > li {
+  list-style-type: square;
+  font-style: italic; /* combinador de filho direto */
+}
+
+h2 + p {
+  text-transform: uppercase; /* combinador de irmão adjacente */
+}
+
+h3 ~ p {
+  border: 1px solid #ccc; /* combinador de irmão geral */
+}
+
+input[type="text"] {
+  width: 200px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Meu Site</h1>
+      </header>
+
+      <h2>
+        Exemplos de combinadores CSS
+      </h2>
+    
+      <section class="destaque">
+        <p>Este é um parágrafo em destaque.</p>
+      </section>
+    
+      <article>
+        <p>Este é um parágrafo dentro de um artigo.</p>
+      </article>
+    
+      <ul class="lista">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    
+      <input type="text" placeholder="Digite aqui">
+    
+      <a href="#">Link</a>
+</body>
+</html>
