@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: auto;
+    max-width: 720px;
 }
 
 .background-example {
@@ -56,4 +57,14 @@ body {
     background-size: cover;
     height: 200px;
     mix-blend-mode: overlay;
+}
+.background-text {
+    background-image: url('assets/image/pexels-pixabay-531880.jpg');
+    background-size: cover;
+    text-shadow: none;
+    height: 200px;
+    mix-blend-mode: overlay;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
