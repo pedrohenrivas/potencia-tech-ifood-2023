@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    max-width: 720px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.border-example {
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.solid-border {
+    border: 2px solid #3498db;
+}
+
+.dashed-border {
+    border: 2px dashed #e74c3c;
+}
+
+.dotted-border {
+    border: 2px dotted #2ecc71;
+}
+
+.double-border {
+    border: 3px double #f39c12;
+}
+
+.rounded-border {
+    border: 2px solid #34495e;
+    border-radius: 10px;
+}
+
+.border-width {
+    border: 5px solid #3498db;
+}
+
+.border-color {
+    border: 2px solid #9b59b6;
+    border-color: #1abc9c;
+}
+
+.border-radius {
+    border: 2px solid #e67e22;
+    border-radius: 20px;
+}
+
+.border-all-sides {
+    border-top: 3px dashed #3498db;
+    border-right: 3px dashed #e74c3c;
+    border-bottom: 3px dashed #2ecc71;
+    border-left: 3px dashed #f39c12;
+}
+
+.border-custom-style {
+    border: 2px groove #e74c3c; /* Estilo personalizado - groove */
+}
