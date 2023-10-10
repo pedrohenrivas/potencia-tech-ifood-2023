@@ -72,5 +72,15 @@ p {
 
 .border-custom-style {
     border: 8px groove #e74c3c; /* Estilo personalizado - groove */
+    /* Tipos de personalização de Borda
+    solid
+    dashed
+    dotted
+    double
+    groove
+    ridge
+    inset
+    outset
+    none */
     background-color: #e74c3c41;
 }
